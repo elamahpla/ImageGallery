@@ -9059,7 +9059,7 @@ var imageClick = function imageClick(e) {
   e.target.style.opacity = opacity;
 };
 
-var current = document.querySelector('#current');
+var current = document.getElementById('current');
 var imgs = document.querySelectorAll('.imgs img');
 var opacity = 0.6;
 

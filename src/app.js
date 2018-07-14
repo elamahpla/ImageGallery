@@ -5,7 +5,7 @@ const imageClick = (e) => {
   e.target.style.opacity = opacity;
 }
 
-const current = document.getElementById('#current');
+const current = document.getElementById('current');
 const imgs = document.querySelectorAll('.imgs img');
 const opacity = 0.6;
 
